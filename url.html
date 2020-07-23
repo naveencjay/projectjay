@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project Trilogy</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1> &nbsp; &nbsp;&nbsp;&nbsp; Project Jay</h1>
+    <div class="deis"><p>Designed by Naveen :)</p></div>
+    <div id="app-cover">
+        <div id="app" class="opened">
+            <form method="get" action="">
+                <div id="f-element">
+                    <div id="inp-cover"><input type="text"id="myText" placeholder="Type something to search ..."
+                        onkeyup="myFunction();convert1();convert2();convert3();"autocomplete="off" class="move-up"></div>
+                </div>
+            <button type="button" onclick="myFunction();convert1();convert2();convert3();" class=""><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+        <div id="layer" title="Click the blue area for some cool animations" class="sl"></div>
+        <div id="init"></div>
+    </div>
+
+    <br>
+   <div style="display: none;">
+    <p id="link1"></p>
+    <p id="link2"></p>
+    <p id="link3"></p>
+</div>
+<br>
+    <div class="button">
+        <p>Zoho</p>
+        <p id="converted_url1"></p>
+    </div>
+    <div class="button">
+        <p>Pre zoho</p>
+        <p id="converted_url2"></p>
+    </div>
+    <div class="button">
+        <p>zcms</p>
+        <p id="converted_url3"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="sc.js"> </script>
+
+</body>
+
+</html>
