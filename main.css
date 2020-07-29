@@ -28,9 +28,10 @@ a{
     color: white;
 }
 .deis{
-    position: fixed;
-    bottom: 0;
-    right: 0;
+    color: #3271ca;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
 }
 html, body
 {
